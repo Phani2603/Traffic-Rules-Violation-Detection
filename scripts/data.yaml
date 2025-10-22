@@ -1,0 +1,6 @@
+
+train: ../dataset/train/images
+val: ../dataset/valid/images
+
+nc: 5
+names: ['numberPlate', 'faceWithNoHelmet', 'faceWithGoodHelmet', 'faceWithBadHelmet', 'rider']
