@@ -91,3 +91,6 @@ Thumbs.db
 
 # Optional: Jupyter Notebook checkpoints
 .ipynb_checkpoints
+
+#driverelated
+.tmp.driveupload

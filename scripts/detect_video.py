@@ -9,12 +9,12 @@ import os
 model_path = '../models/best.pt' # Assuming you moved best.pt to the models folder
 
 # Define the path to your input video file
-video_path = '../input_data/traffic1.mp4'  # Assuming video is in input_data folder
+video_path = '../input_data/traffic.mp4'  # Assuming video is in input_data folder
 
 # Define the output path for the annotated video
 output_dir = '../output/annotated_videos/'
 os.makedirs(output_dir, exist_ok=True) # Create output directory if it doesn't exist
-output_video_path = os.path.join(output_dir, 'traffic_annotated1.mp4')
+output_video_path = os.path.join(output_dir, 'traffic_annotated0.mp4')
 
 # Load your custom-trained, 5-class model
 try:

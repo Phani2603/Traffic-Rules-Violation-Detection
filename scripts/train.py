@@ -41,8 +41,8 @@ print("----------------------------------------------------------")
 
 # --- 3. LOAD MODEL AND START TRAINING ---
 
-# Load a pre-trained model. 'yolov8n.pt' is the smallest and fastest.
-model = YOLO('yolov8n.pt')
+# Load a pre-trained model. 'yolov8s.pt' is the smallest and fastest.
+model = YOLO('yolov8s.pt')
 
 # Start the training!
 print("Starting model training... This may take a while. 🚀")
